@@ -1,15 +1,16 @@
-class Rose {
-
-  PVector              origin = new PVector(0, 0);
+class Rose 
+{
+  PVector              origin = new PVector();
   ArrayList<PVector>   points = new ArrayList<PVector>();
   color                rcolor = getRandomColor();
 
-  Rose(float ox, float oy, float n, float d, float r, float s) {
+  Rose(float ox, float oy, float n, float d, float r, float s) 
+  {
     origin.set(ox, oy);
-   
     float angle = 0.0f;
     float k = n / d;
-    while (angle < (TAU * d)) {
+    while (angle < (TAU * d)) 
+    {
       float radius = cos(angle * k) * r;
       float x = cos(angle) * radius;
       float y = sin(angle) * radius;
@@ -18,12 +19,14 @@ class Rose {
     }
   }
 
-  void update() {
+  void update() 
+  {
     for (PVector P : points) 
       P.add(new PVector(random(-2, 3), random(-3, 0)));
   }
 
-  void render() {
+  void render() 
+  {
     update();
     strokeWeight(random(1, 4));
     stroke(rcolor, R_ALPHA);
