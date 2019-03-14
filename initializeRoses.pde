@@ -7,7 +7,7 @@ void initializeRoses(int number) {
     float d = floor(random(R_MIN_DIVIDOR, R_MIN_DIVIDOR));
     
     float r = random(R_MIN_RADIUS, R_MAX_RADIUS);
-    float s = random(R_SPEED_MIN, R_SPEED_MAX);
+    float s = random(R_MIN_SPEED, R_MAX_SPEED);
     
     roses.add(new Rose(ox, oy, n, d, r, s));
   }

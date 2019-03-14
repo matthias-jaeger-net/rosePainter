@@ -1,6 +1,7 @@
-void crop() {
+public void crop(int weight) 
+{
   noFill();
   stroke(255);
-  strokeWeight(S_CROP);
+  strokeWeight(weight);
   rect(0, 0, width, height);
 }
