@@ -1,5 +1,7 @@
-public void initializeRoses(int number) {
- for (int count = 0; count < number; count++) {
+public void initializeRoses(int number) 
+{
+ for (int count = 0; count < number; count++) 
+ {
     float ox = random(0, width);
     float oy = random(0, height);
     float n  = random(R_MIN_NUMERATOR, R_MAX_NUMERATOR);

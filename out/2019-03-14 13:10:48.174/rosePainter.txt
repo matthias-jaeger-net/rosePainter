@@ -1,0 +1,1 @@
+My program rosePainter sucessfully created an arrangement of 12 mathematical rose curves with random origins, paramters and size and was using smokey red, pastelly rose, purple rose and pastell yellow.  colors, to create this generative image. 

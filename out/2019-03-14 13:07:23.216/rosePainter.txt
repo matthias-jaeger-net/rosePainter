@@ -1,0 +1,1 @@
+My program rosePainter was initialized at 2019-03-14 13:07:23.216 and  sucessfully created a 800x800 canvas width a crop factor of 120.  What you see is an arrangement of 12 mathematical rose curves with random origins, paramters and size.  smokey red ,  pastelly rose ,  purple rose  and pastell yellow . 

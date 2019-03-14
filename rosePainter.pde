@@ -33,16 +33,16 @@ ArrayList<Rose> roses = new ArrayList<Rose>();
 
 /** COLOR PALETTE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 final NamedColor[] colors = {
-  new NamedColor("RED_SMOKEY", color(255,  90,  80)),
-  new NamedColor("ROSE_PASTELL", color(255, 231, 231)),
+  new NamedColor("smokey red", color(255,  90,  80)),
+  new NamedColor("pastelly rose", color(255, 231, 231)),
   //new NamedColor("ROSE_GLOWY", color(243, 139, 209)),
-  new NamedColor("ROSE_PURPLE", color(162, 114, 196)),
+  new NamedColor("purple rose", color(162, 114, 196)),
   //new NamedColor("PURPLE", color(120,  30, 255)),
-  //new NamedColor("YELLOW_PASTELL", color(255, 240, 218)),
-  new NamedColor("BLUE_SMOKEY", color( 70,  92, 168)),
+  new NamedColor("pastell yellow", color(255, 240, 218)),
+  //new NamedColor("BLUE_SMOKEY", color( 70,  92, 168)),
   //new NamedColor("BLUE_LIGHT", color( 20, 100, 203)),
-  new NamedColor("GREEN_MINT", color( 99, 221, 218)),
-  new NamedColor("GREEN_PETROL", color(  9, 104, 135)),
+  //new NamedColor("GREEN_MINT", color( 99, 221, 218)),
+  //new NamedColor("GREEN_PETROL", color(  9, 104, 135)),
 };
 color[] palette = createPalette();
 
