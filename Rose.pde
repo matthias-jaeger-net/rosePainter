@@ -1,4 +1,4 @@
-class Rose 
+public class Rose 
 {
   PVector              origin = new PVector();
   ArrayList<PVector>   points = new ArrayList<PVector>();
@@ -19,15 +19,15 @@ class Rose
     }
   }
 
-  void update() 
+  public void update(PVector force) 
   {
     for (PVector P : points) 
-      P.add(new PVector(random(-2, 3), random(-3, 0)));
+      P.add(force);
   }
 
-  void render() 
+  public void render() 
   {
-    update();
+    update(new PVector(random(-2, 3), random(-3, 0)));
     strokeWeight(random(1, 4));
     stroke(rcolor, R_ALPHA);
     pushMatrix();

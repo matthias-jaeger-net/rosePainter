@@ -1,23 +1,14 @@
 void renderOutput() {
-  /* 
-  
-  rosePainter No. 00000000000 
-  sucessfully painted for TIME iterations with COUNT roses
-  between 
- 
-  
-  MAXN  0 = 30;
-  MAXD   = 17;
-final int MINS   = 100;
-final int MAXS   = 200;
-final int OPACITY = 200;
-  
-  An image with 30 instances of a mathematical rose pattern.
-  defined by a constant K which is a fraction of two random values - 
-  if you plot out the vertex points over time you get 
-  delicate curves orbiting the given center - 
-  FLOWERS = 30, TIME = 100, FORCE = 0.1
-  
-  */ 
-  output.println("es");
+  output.print("My program " + TITLE + " was initialized at " + timestamp + " and ");
+  output.print(" sucessfully created a " + width + "x" + height + " canvas width a crop facto of " + S_CROP + ". ");
+  output.print(" What you see is an arrangement of " + R_COUNT + " mathematical rose curves with random origins, paramters and size. ");
+  output.print(" All points of these curves are ");
+  String[] usedColors = documentPalette();
+  for (String name : usedColors) {
+    output.print(name + ", ");
+  }
+  output.print(" and moved " + S_TIME + " frames.");
+
+  output.flush();
+  output.close();
 }
