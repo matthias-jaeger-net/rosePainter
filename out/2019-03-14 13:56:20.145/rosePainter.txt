@@ -1,0 +1,1 @@
+rosePainter randomly arranged 12 mathematical rose curves. Each curve has a random origin between 0 and 800 in the x and y direction. A rose curves number of petals is definded by the paramters N, ranging from 1 to 9 and D, ranging from 1 to 9Time 200 Shaded in smokey red, pastelly rose, purple rose and pastell yellow colors to create this generative image. 

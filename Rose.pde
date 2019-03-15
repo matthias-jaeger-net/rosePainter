@@ -27,7 +27,7 @@ public class Rose
 
   public void render() 
   {
-    update(new PVector(random(-2, 3), random(-3, 0)));
+    update(PVector.random2D().mult(R_SPREAD));
     strokeWeight(random(1, 4));
     stroke(rcolor, R_ALPHA);
     pushMatrix();
